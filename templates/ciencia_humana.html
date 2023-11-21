@@ -1,0 +1,22 @@
+{% extends 'base_materia.html' %}
+
+{% block content %}
+<div class="col-12 mt-2">
+    <div class="row">
+        <div class="px-4 py-5">
+            <h2 class="pb-2 border-bottom">Ciencias humanas</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="mb-3">
+                        <img src="{{ url_for('static', filename='image/senamu.png') }}" height="200" width="250">
+                    </div>
+                    <h3 class="fs-2">Senamun</h3>
+                    <p> Ativida em que simulamos uma reuniao da ONU onde cada dupla de alunos representava a federacao de um pais.
+
+                    </p>
+                    <a href="https://sites.google.com/view/senamun-ii/home?authuser=0" class="icon-link">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

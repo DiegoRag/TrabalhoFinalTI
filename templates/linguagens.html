@@ -1,0 +1,22 @@
+{% extends 'base_materia.html' %}
+
+{% block content %}
+<div class="col-12 mt-2">
+    <div class="row">
+        <div class="px-4 py-5">
+            <h2 class="pb-2 border-bottom">Curso em destaque</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="mb-3">
+                        <img src="{{ url_for('static', filename='image/ebook.png') }}" height="494" width="316">
+                    </div>
+                    <h3 class="fs-2">Producao de minicontos</h3>
+                    <p> Neste trabalho de portugues nos produzimos um livro completo com diversos minicontos com diferentes temas.
+                    </p>
+                    <a href="a" class="icon-link">Saiba mais</a>
+               
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
