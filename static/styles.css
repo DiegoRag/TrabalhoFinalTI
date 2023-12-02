@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.container-fluid {
+    padding-left: 0 !important;
+}
+.row {
+    padding-left: calc(var(--bs-gutter-x) * .7) !important;
+}
+
+.containerPortfolio{
+
+    
+    height: 100vh;
+    padding-right: 0;
+    padding-left: 0;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.telasPortfolio{
+
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,19,204,1) 35%, rgba(0,212,255,1) 100%);
+    scroll-snap-align: start;
+    position: relative ; 
+    
+   
+
+}
+
+
+.tela1{
+    background: linear-gradient(0deg, rgba(128,128,128,1) 0%, rgba(222,222,222,1) 100%); }
+
+.tela2{
+
+    background: linear-gradient(0deg, rgba(98,98,98,1) 0%, rgba(128,128,128,1) 100%); }
+
+.tela3{
+
+    background: linear-gradient(0deg, rgba(73,73,73,1) 0%, rgba(98,98,98,1) 100%); }
+
+    
+    .conteudoTela {
+        /* Adicione outras propriedades conforme necessário */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Foto {
+        border-color: 200px rgb(0, 0, 0);
+        margin-bottom: 25%;
+    }
+    
+    .Diego {
+        border-radius: 50%;
+        width: 30vmin;
+        height: 30vmin;
+    }
+    
+    .swiper{
+
+        width: 80%;
+        height: fit-content;
+    }
+
+    .swiper-wrapper{
+        
+        margin-bottom: 10%;
+        
+    }
+
+    .swiper-slide img{
+
+        width: 100%;
+
+    }
+
+    .swiper-pagination{
+
+        margin-bottom: 15%;
+
+    }
+
+    .swiper .swiper-button-prev, .swiper .swiper-button-next{
+
+        color: black;
+
+    }
+    
+    .swiper .swiper-pagination-bullet-active{
+
+        background: blue;
+
+    }
+    .sobreMim{
+
+        margin-bottom: 20%;
+
+    }
+
+    
