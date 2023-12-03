@@ -32,6 +32,10 @@ def matematica():
 def ti():
     return render_template('ti.html')
 
+@app.route('/projeto_ano')
+def projeto_ano():
+    return render_template('projeto_ano.html')
+
 @app.route('/Automacao')
 def Automacao():
     return render_template('automacao.html')

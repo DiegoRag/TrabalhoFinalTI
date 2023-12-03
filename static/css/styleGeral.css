@@ -1,6 +1,12 @@
 .col-xs-2 img{
 
-    width: 60%;
-    height: 80%;
+    width: 60;
+    height: auto;
 
 }
+
+@media screen and (max-width: 600px) {
+    .col-xs-2 img {
+      display: none;
+    }
+  }

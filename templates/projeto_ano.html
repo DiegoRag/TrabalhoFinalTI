@@ -1,0 +1,21 @@
+{% extends 'base_materia.html' %}
+
+{% block content %}
+<div class="col-12 mt-2">
+    <div class="row">
+        <div class="px-4 py-5">
+            <h2 class="pb-2 border-bottom">Projeto do ano</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="mb-3">
+                        <img src="{{ url_for('static', filename='image/projeto.jpeg') }}" height="400" width="600">
+                    </div>
+                    <h3 class="fs-2">Jogo 2d</h3>
+                    <p> Neste projeto, desenvolvemos a demo de um jogo RPG 2D ambientado em São Paulo. (Imagem ilustrativa acima)
+                    </p>
+               
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
